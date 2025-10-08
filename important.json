@@ -1,0 +1,75 @@
+{
+  "word": "important",
+  "part_of_speech": "adjective",
+  "ipa": "/ɪmˈpɔːr.tənt/",
+  "translation_ja": "重要な",
+  "tts": {
+    "english_voice": "en-US-Wavenet-F",
+    "japanese_voice": "ja-JP-Wavenet-A",
+    "english_rate": 1.0,
+    "japanese_rate": 1.0
+  },
+  "clips": [
+    {
+      "id": "word",
+      "type": "word_display",
+      "duration": 2.5,
+      "text_en": "important",
+      "subtitle_en": "important",
+      "subtitle_ja": "重要な",
+      "tts_text": "important",
+      "tts_lang": "en"
+    },
+    {
+      "id": "translation",
+      "type": "translation_display",
+      "duration": 2.0,
+      "text_ja": "重要な",
+      "tts_text": "重要な",
+      "tts_lang": "ja"
+    },
+    {
+      "id": "example",
+      "type": "example_sentence",
+      "duration": 7.0,
+      "text_en": "The penguin wore a tie for an important ice meeting.",
+      "subtitle_en": "The penguin wore a tie for an important ice meeting.",
+      "subtitle_ja": "ペンギンは重要な氷上会議のためにネクタイを締めた。",
+      "tts_text": "The penguin wore a tie for an important ice meeting.",
+      "tts_lang": "en",
+      "scene_description": "南極の氷の上。1羽のペンギンがスーツと赤いネクタイを着け、氷でできた会議テーブルの前に立っている。周囲には他のペンギンたちもスーツ姿で椅子に座っている。空は澄み切った青。カメラは少しずつズームインし、ペンギンの真剣な表情を強調。最後に 'important' の文字が画面中央に浮かぶ。",
+      "scene_timing": [
+        { "time": 0.0, "action": "氷の会議テーブルとペンギンたちを引きの構図で映す" },
+        { "time": 2.0, "action": "ネクタイを締めた主役のペンギンにフォーカス" },
+        { "time": 4.0, "action": "ペンギンが胸を張って立ち上がる" },
+        { "time": 6.5, "action": "画面中央に 'important' のテキストがフェードイン" }
+      ],
+      "visual_tags": ["3D_cartoon", "whimsical", "winter", "penguin", "zoom_in"],
+      "sfx": ["penguin_waddle", "chair_slide", "text_pop"]
+    },
+    {
+      "id": "example_translation",
+      "type": "translation_display",
+      "duration": 2.0,
+      "text_ja": "ペンギンは重要な氷上会議のためにネクタイを締めた。",
+      "tts_text": "ペンギンは重要な氷上会議のためにネクタイを締めた。",
+      "tts_lang": "ja"
+    }
+  ],
+  "meta": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "bgm": {
+      "name": "uplifting_orchestra",
+      "volume_db": -10
+    },
+    "subtitle_style": {
+      "font": "Noto Sans",
+      "size": 48,
+      "color": "#FFFFFF",
+      "shadow": true
+    }
+  }
+}
+
