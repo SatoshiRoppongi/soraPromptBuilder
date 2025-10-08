@@ -1,0 +1,75 @@
+{
+  "word": "sequence",
+  "part_of_speech": "noun",
+  "ipa": "/ˈsiː.kwəns/",
+  "translation_ja": "順序・連続",
+  "tts": {
+    "english_voice": "en-US-Wavenet-F",
+    "japanese_voice": "ja-JP-Wavenet-A",
+    "english_rate": 1.0,
+    "japanese_rate": 1.0
+  },
+  "clips": [
+    {
+      "id": "word",
+      "type": "word_display",
+      "duration": 2.5,
+      "text_en": "sequence",
+      "subtitle_en": "sequence",
+      "subtitle_ja": "順序・連続",
+      "tts_text": "sequence",
+      "tts_lang": "en"
+    },
+    {
+      "id": "translation",
+      "type": "translation_display",
+      "duration": 2.0,
+      "text_ja": "順序・連続",
+      "tts_text": "順序、連続",
+      "tts_lang": "ja"
+    },
+    {
+      "id": "example",
+      "type": "example_sentence",
+      "duration": 7.0,
+      "text_en": "The ducks marched in a perfect sequence around the fountain.",
+      "subtitle_en": "The ducks marched in a perfect sequence around the fountain.",
+      "subtitle_ja": "アヒルたちは噴水のまわりを完璧な順番で行進した。",
+      "tts_text": "The ducks marched in a perfect sequence around the fountain.",
+      "tts_lang": "en",
+      "scene_description": "明るい昼間の公園。中央には丸い噴水。5羽のかわいいアヒルが一列に並び、テンポよく噴水の周囲を行進している。カメラは真上から俯瞰し、アヒルの動きを円形の軌跡として映す。アヒルたちはぴったりと間隔を保ち、リズミカルに足踏み。最後に 'sequence' の文字がふわっと画面中央に浮かび上がる。",
+      "scene_timing": [
+        { "time": 0.0, "action": "公園全景を上空から映す" },
+        { "time": 2.0, "action": "アヒルたちが一列に行進しはじめる" },
+        { "time": 4.5, "action": "カメラがズームして列の動きを強調" },
+        { "time": 6.5, "action": "画面中央に 'sequence' のテキストがフェードイン" }
+      ],
+      "visual_tags": ["3D_cartoon", "bright", "top_view", "cute_animals", "loop_motion"],
+      "sfx": ["quack_soft", "marching_feet", "text_pop"]
+    },
+    {
+      "id": "example_translation",
+      "type": "translation_display",
+      "duration": 2.0,
+      "text_ja": "アヒルたちは噴水のまわりを完璧な順番で行進した。",
+      "tts_text": "アヒルたちは噴水のまわりを完璧な順番で行進した。",
+      "tts_lang": "ja"
+    }
+  ],
+  "meta": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "bgm": {
+      "name": "playful_march",
+      "volume_db": -10
+    },
+    "subtitle_style": {
+      "font": "Noto Sans",
+      "size": 48,
+      "color": "#FFFFFF",
+      "shadow": true
+    }
+  }
+}
+

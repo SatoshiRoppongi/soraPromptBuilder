@@ -1,0 +1,76 @@
+{
+  "word": "unfortunately",
+  "part_of_speech": "adverb",
+  "ipa": "/ʌnˈfɔːr.tʃən.ət.li/",
+  "translation_ja": "残念ながら",
+  "tts": {
+    "english_voice": "en-US-Wavenet-F",
+    "japanese_voice": "ja-JP-Wavenet-A",
+    "english_rate": 1.0,
+    "japanese_rate": 1.0
+  },
+  "clips": [
+    {
+      "id": "word",
+      "type": "word_display",
+      "duration": 2.5,
+      "text_en": "unfortunately",
+      "subtitle_en": "unfortunately",
+      "subtitle_ja": "残念ながら",
+      "tts_text": "unfortunately",
+      "tts_lang": "en"
+    },
+    {
+      "id": "translation",
+      "type": "translation_display",
+      "duration": 2.0,
+      "text_ja": "残念ながら",
+      "tts_text": "残念ながら",
+      "tts_lang": "ja"
+    },
+    {
+      "id": "example",
+      "type": "example_sentence",
+      "duration": 7.0,
+      "text_en": "Unfortunately, the toast fell butter-side down again.",
+      "subtitle_en": "Unfortunately, the toast fell butter-side down again.",
+      "subtitle_ja": "残念ながら、トーストはまたバターを下にして落ちた。",
+      "tts_text": "Unfortunately, the toast fell butter-side down again.",
+      "tts_lang": "en",
+      "scene_description": "朝のキッチン。テーブルの上にバターを塗ったトースト。ゆっくりとテーブルの端から落ち、床にバター面を下にして着地する。主人公の猫が近くでその様子を見て、目をまん丸にする。背景には朝日とシンプルなキッチン家具。最後に 'unfortunately' の文字がふわっと浮かび上がる。",
+      "scene_timing": [
+        { "time": 0.0, "action": "トーストがテーブルの端にあるクローズアップ" },
+        { "time": 2.0, "action": "スローモーションでトーストが落ち始める" },
+        { "time": 4.0, "action": "床にバター面を下にして落下" },
+        { "time": 6.0, "action": "猫が驚いた表情でトーストを見る" },
+        { "time": 6.5, "action": "画面中央に 'unfortunately' のテキストがフェードイン" }
+      ],
+      "visual_tags": ["3D_cartoon", "morning_light", "slow_motion", "whimsical", "closeup"],
+      "sfx": ["fall_soft", "cat_meow_short", "text_pop"]
+    },
+    {
+      "id": "example_translation",
+      "type": "translation_display",
+      "duration": 2.0,
+      "text_ja": "残念ながら、トーストはまたバターを下にして落ちた。",
+      "tts_text": "残念ながら、トーストはまたバターを下にして落ちた。",
+      "tts_lang": "ja"
+    }
+  ],
+  "meta": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "bgm": {
+      "name": "light_comedy",
+      "volume_db": -11
+    },
+    "subtitle_style": {
+      "font": "Noto Sans",
+      "size": 48,
+      "color": "#FFFFFF",
+      "shadow": true
+    }
+  }
+}
+
